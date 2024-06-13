@@ -6,7 +6,9 @@ const props = defineProps({
 });
 </script>
 <template>
-  <div class="w-full flex flex-row justify-center">
+  <div
+    class="w-full flex flex-row justify-center transition-colors duration-300"
+  >
     <div class="max-w-screen-lg w-full flex-col py-32 px-5">
       <div
         v-if="title"

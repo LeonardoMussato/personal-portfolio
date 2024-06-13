@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./pages/**/*.vue", "./components/**/*.vue", "./layouts/**/*.vue"],
+  darkMode: "selector",
   theme: {
     extend: {
       fontFamily: {
@@ -10,6 +11,9 @@ export default {
       },
       colors: {
         sorint: "#938398",
+      },
+      height: {
+        "full-minus-section": "calc(100% - 8rem)",
       },
     },
   },
